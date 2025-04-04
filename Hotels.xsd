@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        elementFormDefault="qualified">
+
+  <complexType name="AddressType">
+    <sequence>
+      <element name="Number" type="xs:string"/>
+      <element name="Street" type="xs:string"/>
+      <element name="City" type="xs:string"/>
+      <element name="State" type="xs:string"/>
+      <element name="Zip" type="xs:string"/>
+    </sequence>
+    <attribute name="NearestAirport" type="xs:string" use="optional"/>
+  </complexType>
+
+  <complexType name="HotelType">
+    <sequence>
+      <element name="Name" type="xs:string"/>
+      <element name="Phone" type="xs:string" maxOccurs="unbounded"/>
+      <element name="Address" type="AddressType"/>
+    </sequence>
+    <attribute name="Rating" type="xs:string" use="required"/>
+  </complexType>
+
+  <element name="Hotels">
+    <complexType>
+      <sequence>
+        <element name="Hotel" type="HotelType" maxOccurs="unbounded"/>
+      </sequence>
+    </complexType>
+  </element>
+
+</schema>

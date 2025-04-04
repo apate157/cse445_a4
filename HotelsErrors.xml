@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+   <Hotel Rating="4.2">
+       <Name>Westin</Name>
+       <Phone>480-968-8885</Phone>
+       <Phone>800-937-8461</Phone>
+       <Address NearestAirport="Sky Harbor">
+           <Number>11</Number>
+           <Street>E 7th St</Street>
+           <City>Tempe</City>
+           <State>AZ</State>
+           <Zip>85281</Zip>
+       </Address>
+   </Hotel>
+   <Hotel>
+       <Name>Marriott</Name>
+       <Phone>602-123-4567</Phone>
+       <Address>
+           <Number>101</Number>
+           <Street>Main St</Street>
+           <City>Phoenix</City>
+           <State>AZ</State>
+           <Zip>85001</Zip>
+       </Address>
+   </Hotel>
+   <Hotel Rating="4.5">
+       <Name>Hilton</Name>
+       <Phone>480-555-1234</Phone>
+       <Address NearestAirport="Phoenix Sky Harbor">
+           <Number>202</Number>
+           <Street>Broadway</Street>
+           <City>Scottsdale</City>
+           <State>AZ</State>
+           <Zip>85260</Zip>
+       </Address>
+   </Hotel>
+   <Hotel Rating="4.0">
+       <Name>Hyatt</Name>
+       <Phone>480-777-8888</Phone>
+       <Address NearestAirport="Phoenix Sky Harbor">
+           <Number>303</Number>
+           <Street>Lake Shore Dr</Street>
+           <City>Chandler</City>
+           <State>AZ</State>
+           <Zip>85224</Zip>
+   </Hotel>
+   <Hotel Rating="3.5">
+       <Name>Holiday Inn</Name>
+       <Name>Holiday Inn Duplicate</Name>
+       <Phone>480-333-4444</Phone>
+       <Phone>480-333-5555</Phone>
+       <Address>
+           <Number>404</Number>
+           <Street>Desert Rd</Street>
+           <City>Tempe</City>
+           <State>AZ</State>
+           <Zip>85281</Zip>
+       </Address>
+   </Hotel>
+</Hotel>
