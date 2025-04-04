@@ -5,7 +5,7 @@
        <Name>Westin</Name>
        <Phone>480-968-8885</Phone>
        <Phone>800-937-8461</Phone>
-       <Address NearestAirport="Sky Harbor">
+       <Address NearstAirport="Sky Habor">
            <Number>11</Number>
            <Street>E 7th St</Street>
            <City>Tempe</City>
@@ -16,7 +16,7 @@
    <Hotel Rating="3.8">
        <Name>Marriott</Name>
        <Phone>602-123-4567</Phone>
-       <Address>
+       <Address NearstAirport="Sky Harbor">
            <Number>101</Number>
            <Street>Main St</Street>
            <City>Phoenix</City>
@@ -28,7 +28,7 @@
        <Name>Hilton</Name>
        <Phone>480-555-1234</Phone>
        <Phone>480-555-5678</Phone>
-       <Address NearestAirport="Phoenix Sky Harbor">
+       <Address NearstAirport="Phoenix Sky Harbor">
            <Number>202</Number>
            <Street>Broadway</Street>
            <City>Scottsdale</City>
@@ -39,7 +39,7 @@
    <Hotel Rating="4.0">
        <Name>Hyatt</Name>
        <Phone>480-777-8888</Phone>
-       <Address NearestAirport="Phoenix Sky Harbor">
+       <Address NearstAirport="Phoenix Sky Harbor">
            <Number>303</Number>
            <Street>Lake Shore Dr</Street>
            <City>Chandler</City>
@@ -51,7 +51,7 @@
        <Name>Holiday Inn</Name>
        <Phone>480-333-4444</Phone>
        <Phone>480-333-5555</Phone>
-       <Address>
+       <Address NearstAirport="Sky Harbor">
            <Number>404</Number>
            <Street>Desert Rd</Street>
            <City>Tempe</City>
@@ -62,7 +62,7 @@
    <Hotel Rating="4.1">
        <Name>Ramada</Name>
        <Phone>480-222-1111</Phone>
-       <Address NearestAirport="Sky Harbor">
+       <Address NearstAirport="Sky Harbor">
            <Number>505</Number>
            <Street>University Dr</Street>
            <City>Tempe</City>
@@ -74,7 +74,7 @@
        <Name>Embassy Suites</Name>
        <Phone>480-666-7777</Phone>
        <Phone>480-666-8888</Phone>
-       <Address NearestAirport="Phoenix Sky Harbor">
+       <Address NearstAirport="Phoenix Sky Harbor">
            <Number>606</Number>
            <Street>Indian School Rd</Street>
            <City>Tempe</City>
@@ -85,7 +85,7 @@
    <Hotel Rating="3.9">
        <Name>Best Western</Name>
        <Phone>480-999-0000</Phone>
-       <Address>
+       <Address NearstAirport="Phoenix Sky Harbor">
            <Number>707</Number>
            <Street>College Ave</Street>
            <City>Tempe</City>
@@ -97,7 +97,7 @@
        <Name>DoubleTree</Name>
        <Phone>480-111-2222</Phone>
        <Phone>480-111-3333</Phone>
-       <Address NearestAirport="Phoenix Sky Harbor">
+       <Address NearstAirport="Phoenix Sky Harbor">
            <Number>808</Number>
            <Street>Willow Ln</Street>
            <City>Tempe</City>
@@ -108,7 +108,7 @@
    <Hotel Rating="4.0">
        <Name>Comfort Inn</Name>
        <Phone>480-444-5555</Phone>
-       <Address>
+       <Address NearstAirport="Phoenix Sky Harbor">
            <Number>909</Number>
            <Street>Desert Blvd</Street>
            <City>Tempe</City>
